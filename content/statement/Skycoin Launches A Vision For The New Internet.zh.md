@@ -1,23 +1,25 @@
-+++ title = "Skycoin Launches A Vision for the New Internet" tags = [ "Statement", ] bounty = 4 date = "2017-07-24" categories = [ "Statement", ] +++
+++ title =“Skycoin - 新世代互联网的愿景”tags = [“Statement”，] bounty = 4 date =“2017-07-24”categories = [“Statement”，] +++
 
-Skycoin, a next-generation cryptocurrency with four years of development history, rolls out to the public in July. The Skycoin project seeks to popularize decentralized networking by fixing problems with Bitcoin. Over 80 developers on Github and elsewhere have contributed to the project since 2012.
+经历四年发展,新世代加密货币Skycoin于七月份向公众推出。 Skycoin项目试图通过解决比特币的基础问题来推广分散式网络。自2012年以来，Github和其他不同地方的80多名开发人员为该项目做出了贡献。
 
-Skycoin is a fast, secure, and reliable currency for online transactions. It uses a redesigned consensus algorithm that improves on Bitcoin, and is the first algorithm of its type since PeerCoin.
+Skycoin是快速，安全和可靠的网上交易货币。它使用重新设计的一致性算法来改进比特币，并且是自PeerCoin以来的第一种算法。
 
-Skycoin’s core features are speed, privacy, security, and ecosystem.
+Skycoin的核心功能是速度，隐私，安全和生态系统。
 
-In terms of speed, Skycoin competes with credit cards and Apple Pay. Transactions occur in seconds. This makes the coin suitable for Point-of-Sale (POS) and IOT transactions.
+在速度方面，Skycoin与信用卡和Apple Pay竞争。交易在几秒钟内完成。这使得Skycoin适用于销售点（Point-of-Sale, POS）和物联网交易 (IOT transactions)。
 
-Skycoin can claim 100% private and anonymous transactions thanks to its use of CoinJoin protocol to mix transactions from more than one wallet. It also provides a secure transaction setting that uses encryption to protect from 51% attack and other common threats.
+由于使用CoinJoin协议来混合来自多个钱包的交易，Skycoin可以要求100％的私人交易和匿名交易。它还提供了一个安全的交易平台，使用加密来防止51％的攻击和其他常见的威胁。
 
-The ecosystem surrounding Skycoin is expanding. Developers are building Skycoin apps and tools, which include planned options like social networks, VPN, and messaging.
+围绕Skycoin的生态系统正在扩大。开发人员正在构建Skycoin应用程序和工具，其中包括社交网络，VPN和信息传递等。
 
-Skycoin is set to level the playing field and create a decentralized internet by distributing value across the peer-to-peer community. It provides a public resource that eliminates the mining and inflation that plague other cryptocurrencies.
+Skycoin将通过在对等社区中分配价值来平衡竞争环境并创建一个分散的互联网。它提供了一个公共资源，消除了困扰其他加密货币的采矿和通货膨胀。
 
-But developers say that the Skycoin project isn’t just about cryptocurrency. It’s also the fuel behind Skywire, a peer-to-peer network that boldly seeks to replace the current internet landscape with something better.
+但在开发人员看来，Skycoin项目不仅仅是加密货币。这也是Skywire（一个点对点网络）的燃料，具野心地寻求用更好更安全的系统来取代目前的互联网格局。
 
-“There are other repos on github.com/skycoin for mesh networking and distributed VPN prototypes, where people will be paid tokens for forwarding traffic,” says Skycoin project founder Synth. “There is also a distributed social media service, with peer-to-peer data replication and different experimental projects, as well as research into immutable data structures for next-generation internet. Some of them are very radical.”
+Skycoin项目创始人Synth表示：
 
-Skywire users receive coins for sharing content and services. In this way, Skycoin invites users to participate in a larger mission: wresting control away from corporate internet service providers and giving it back to the community. It’s a shared social purpose that makes the Skycoin project unique.
+“在github.com/skycoin 上还有其他用于网状网络和分布式VPN原型的回购站，人们将通过付费令牌来转发流量。 “还有一个分布式社交媒体服务，包括点对点数据复制和不同的实验性项目，以及研究下一代互联网的不可变数据结构。其中一些是非常基进的。 ”
 
-Skycoin’s rollout and ongoing development can be followed online at skycoin.net.
+Skywire用户经由共享内容和服务收到升相关的硬币。通过这种方式，Skycoin邀请用户参与一个更大的使命：从企业互联网服务提供商手中夺回控制权并将其交还给社区。 Skycoin项目是独一无二的共同的社会目标。
+
+欢迎到skycoin.net 查看 Skycoin的相关推广和发展。
