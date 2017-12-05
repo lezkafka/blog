@@ -1,5 +1,5 @@
 +++
-title = " "Aether" 的意义"
+title = " Aether 的意义"
 tags = [
     "Decentralization",
     "CXO",
