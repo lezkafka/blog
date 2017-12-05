@@ -1,5 +1,5 @@
 +++
-title = "The Meaning of Aether"
+title = " "Aether" 的意义"
 tags = [
     "Decentralization",
     "CXO",
@@ -12,94 +12,87 @@ categories = [
 ]
 +++
 
-*This is an archived post from the bitcointalks thread on May 05 2014*
 
-*Aether's original design has evolved into what is now called CXO*
 
-*Quote from: **Tobo** on May 04, 2014, 02:11:12 PM*
->I noticed that you previously used the name of ether which was used by
-Ethereum. Now you changed it to aether which has been used by some other
-people at this forum. Why did you like these two names so much?
 
-Ether permeates space. Then we found out ether is alcohol that people snuff to
-get high and aether is the mystical substance that permeates space.
 
-Its called Aether because the data does not exist on a server. It exists
-collectively throughout the internet (or at least the subscribers). Once
-published, it cannot be destroyed. There is no central point, there is no
-server that can be seized. The publisher cannot be located or tracked because
-once the data is published, they are just a peer.
+*这是2014年5月5日bitcointalks 的存档文章*
 
-Its a perfect system. There is one type of Skycoin address and its is an
-endpoint for a datastore or a pubsub system. There is another type of Skycoin
-address and it holds coins. There is another type of Skycoin address and it is
-a node you can communicate with and send messages to.
+*以太的原始设计已经完成演变成从此以后称为CXO*
 
-You generate a pubkey, which hashes to an address and that is an ID. The
-address replaces IP addresses for identifying a device or computer if its used
-for communication. It names a datastore (just like a magnet link is a hash of a
-torrent file and name the torrent) if its used for a datastore. If the
-datastore contains a filelist and a hash list for chunks in the files, then
-its just a torrent that people can update. If it names a Skywire node if its
-used for communication, like an IP address names a computer.
+*引用自：Tobo 2014年5月5日，02:11:12 PM*
+>我注意到你之前使用过"ether",醚, 一个Ethereum使用过的名字。现在你把它改成了"aether", 
+一个这个论坛上有些人人使用的名字。你为什么这么喜欢这两个名字？
 
-So if you wanted a create a distributed twitter with Aether, you create a
-pubkey. You publish updates to your key value store and sign them with your
-private key. Each key in the keyvalue store is a number incremented each tweet
-and the body is json for the tweet.
+"Ether", 醚 - 在空间中渗透, 无处不在。然
+后我们发现以太是人用于鼻烟壶的的乙醇，而"Aether" 是渗透空间的神秘物质。
 
-You give someone your pubkey hash (an address) and now they can download and
-replicate your feed. They can pull in the feeds of everyone they are
-following. They can run their own filtering algorithms locally for ranking
-things in the feeds they are subscribed to and choose their gui. Its a
-website, but its a website running on your computer and its running from data
-you have a copy of.
+它被称为Aether，因为数据不存在于单一的或是可数的多个服务器上。
+它在遍及整个互联网（或者至少是订阅了的有关用户）之中共同存在。
+一旦任何东西及发布了，它将不能够被销毁。没有中心点，没有服务器可以被检取。
+发布者无法被找到或跟踪，因为一旦数据发布，他们只是茫茫网络汪洋中的一个节点。
 
-You are not downloading the feeds you subscribed to from a server, you are
-downloading them from other people who are subscribed to them. Its completely
-decentralized. Its pubsub, its a communication channel, its a key-value store,
-its an RSS feed, its a document oriented database (if you are storing JSON),
-its an updatable torrent if you are storing file lists and chunk lists.
 
-This innovation, this data structure is as powerful as the blockchain. Its as
-powerful as DHT. It is a core component for the next generation of
-decentralized systems.
+它是一个完美的系统。有一种类型的Skycoin地址，它是数据存储或pubsub系统的端点。
+还有另一种类型的Skycoin地址，它能够储存硬币。
+还有另一种类型的Skycoin地址，它是一个可以与之通信并互相发送消息的节点。
 
-Aether is a mystical element that permeates all of space and I think its
-appropriate.
 
-In Tor, you can identify the path to a service through traffic analysis by
-looking at variation in latency for traffic and correlating them to latency of
-other traffic passing through the nodes. Requesting pages is slow because you
-have to go through multiple hops. Here the replication is peer to peer. There
-is no "center", there is no "server". The webpages are instant, because you
-are not requesting the data but have a full copy of the data locally. You are
-generating the webpage from the database.
+您生成一个公钥，其中连接着一个地址，这就是一个ID。
+该地址替换了用于识别设备或计算机的IP地址（如果其用于通信）。
+如果它用于数据存储，它将命名一个数据存储（就像磁铁链接是一个torrent文件的散列方式，并命名该种子）。
+如果数据存储包含文件中的文件列表和散列列表，那么它只是一个人们可以更新的洪流。
+如果它命名Skywire节点，如果它用于通信，如IP地址命名计算机。
 
-In the internet of things, you have an LED lightbulb. You want to set the
-lightbulb to red. The lightbulb has an IP address and its connected wirelessly
-to your house. You move the light bulb and it has a new IP address, so you
-cant find it or send it messages. IP addresses are not "ids" for devices, they
-change as the object moves and accesses the network over different endpoints.
-Skycoin gives devices or applications "names" that are network independent.
-This is the function of DNS, to take a name and resolve a server or IP.
 
-The lightbulb has a Skycoin address and you can send messages to the address.
-You can say "turn red" or upload a new program to the programmable LED
-lightbulb. Skywire automatically figures out how to find a route to the device.
+所以如果你想创建一个与Aether分布式的twitter，你可以创建一个pubkey。
+您将你的更新发布到您的关键值存储并使用您的私钥签名。
+在金钥储库中的每一把金钥都是每个推文递增的数字，正文是推特的json。
 
-Additionally, when you are running a Skywire Mesh node, the node may be
-connected to four wireless networks and a router. The wifi node has five
-different IP addresses. An IP address no longer uniquely identifies the node.
-An IP address is merely a path to the node. The IP addresses on the router are
-often not even public addresses because of NAT.
 
-The set of computers you control, your desktop, your tablet, your two laptops.
-They form a personal cloud. Each device has a Skywire daemon and a node
-address it can receive communication to. You have application servers running
-on your cloud. For instance you may have several storage application servers
-(which expose a volume of a drive as a network file system, like Dropbox). You
-might have application servers such as web servers or email servers.
+你给他人你的pubkey散列（一个地址），现在他们可以下载并复制你的更新。
+他们可以吸引他们所关注的每一个人。他们可以在本地运行自己的过滤算法，在订阅的订阅源中对事物进行排名, 并选择他们自己的gui。
+它是一个网站，但它是一个运行在你的计算机上的网站，它运行的是你同时也有一份副本的数据。
 
-So the idea of the mythological "Aether" reflects the vision with what we are
-trying to accomplish.
+
+您不是从服务器下载订阅的订阅源，而是从订阅的其他人那里下载它们。
+它完全分散。它的pubsub，它的一个通信渠道，一个键值存储，一个RSS提要，
+一个面向文档的数据库（如果你正在存储JSON），它是一个可更新的洪流，如果你正在存储文件列表和块列表。
+
+
+这个创新，这个数据结构和区块链一样强大。它和DHT一样强大。
+它是组成下一代分散式系统的核心。
+
+以太是一个神秘的元素，渗透到所有的空间，我认为以它用作比喻最恰当不过。
+
+在Tor中，您可以通过流量分析来识别服务的路径，方法是查看流量延迟的变化，并将其与通过节点的其他流量的延迟相关联。
+一般来说如果你游览或者是向某一个网站请求页面通常都很慢，因为你必须经历很多个步骤。
+这里的复制是对等的。没有“中心”，没有“服务器”。网页是即时的，
+因为您没有请求数据，但在本地有完整的数据副本。您正在从数据库中生成网页。
+
+
+例如在物联网(internet of things)中，你买了一个可以变色的LED灯泡。你想把灯泡设置为红色。
+你的这个灯泡有一个IP地址，并连接到你的房子无线。
+现在你想把灯泡放到别的位置，你移动灯泡，它就有了一个新的IP地址，
+这样的话，在你重新设定之前，你不能找到它或对他发送消息。 
+IP地址不是设备的“ID”，它们随着对象移动并通过不同端点访问网络而改变。
+Skycoin提供独立于网络的设备或应用“名称”。这是DNS的功能，简单地取一个名字，一个 "Id"并解析一个服务器或IP。
+
+
+同样的概念如果灯泡有一个Skycoin地址，你可以发送消息到哪一个地址。
+你可以说“变红”或上传一个新的程序到可编程LED灯泡。 
+Skywire会自动找出如何找到设备的路线。
+
+此外，当您运行Skywire Mesh节点时，该节点可能连接到四个无线网络和一个路由器。
+WiFi节点有五个不同的IP地址。 IP地址不再唯一标识该节点。
+一个IP地址只是一个通往该节点的路径。由于NAT，路由器上的IP地址往往不是公有地址。
+
+
+您控制的一组电脑，桌面电脑，平板电脑和两台笔记本电脑。他们互相形成一组个人的云端。
+每个设备都有一个Skywire守护程序和一个可以接收通信的节点地址。
+您的应用程序服务器正在您的云端上运行。
+例如，您可能有多个存储应用程序服务器（将一个驱动器卷显示为网络文件系统，如Dropbox）。
+您同时可以拥有应用程序服务，例如网络或电子邮件服务器诸如此类。
+
+
+所以，神话中的“以太”("Aether") 的观念就正正反映了我们正在努力完成的愿景。
