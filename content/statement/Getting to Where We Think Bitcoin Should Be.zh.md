@@ -1,5 +1,5 @@
 +++
-title = "Getting to Where We Think Bitcoin Should Be"
+title = "追赶比特币的理想旅途上"
 tags = [
     "Decentralization",
     "Bitcoin",
